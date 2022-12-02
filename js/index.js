@@ -9,7 +9,7 @@ function register()
 }
 function login()
 {
-    regform.style.transform="translateX(300)"
+    regform.style.transform="translateX(300px)"
     loginform.style.transform="translateX(300px)"
     indicator.style.transform="translateX(0px)"
 }

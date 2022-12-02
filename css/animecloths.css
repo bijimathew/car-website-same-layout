@@ -339,10 +339,18 @@ th:last-child{
 /* account page */
 .accountpage{
     padding: 52px 0;
-    background: radial-gradient(orangered,white);
+    background: radial-gradient(#fff,rgb(237, 149, 149));
+    border-radius: 10px 10px 0 0;
+}
+.formpg{
+    padding: 0;
+    margin: auto;
+    display: block;
 }
 .formContainer{
-    background: rgb(242, 242, 242);
+    float: right;    /*login page right*/ 
+    background: rgb(234, 207, 207);
+    opacity: .8;
     width: 300px;
     height: 400px;
     position: relative;
@@ -350,6 +358,7 @@ th:last-child{
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 0 20px 0px rgba(0, 0,0, 0.1);
+    border-radius: 10px;
     overflow: hidden;
 }
 .formContainer span{
@@ -394,7 +403,7 @@ form .btn{
 #regform{
     right: 35px;
     width: 240px;
-    display: none;
+    /* display: none; */
    
 }
 #regform input,#loginform input{
